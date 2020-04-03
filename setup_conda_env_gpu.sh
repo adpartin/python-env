@@ -1,5 +1,5 @@
 # Create env crv_keras
-conda create --name crv_keras
+conda create --name gpu
 
 conda activate crv_keras
 conda install --channel anaconda  numpy pip seaborn pandas scikit-learn psutil --yes
