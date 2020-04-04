@@ -13,8 +13,5 @@ bash  Miniconda3-4.7.12.1-Linux-x86_64.sh  -b -p  ~/miniconda3
 source ~/miniconda3/bin/activate
 # conda update conda
 conda init zsh
-
-# Update all packages
-# conda  update  --all
-# conda info -a
+source ~/.zshrc
 

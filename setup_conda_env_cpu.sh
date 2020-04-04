@@ -1,9 +1,8 @@
-# Create env crv_keras
-conda create --name cpu
+# First, create and activate env. The run this bash script.
+# conda create --name cpu
+# conda activate crv_keras
 
-conda activate crv_keras
 conda install --channel anaconda  numpy pip seaborn pandas scikit-learn psutil --yes
-# conda install --channel conda-forge  matplotlib psutil pyarrow
 conda install --channel conda-forge  pyarrow --yes
 conda install --channel conda-forge  lightgbm --yes
 
