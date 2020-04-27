@@ -7,11 +7,12 @@ conda install --channel conda-forge  pyarrow --yes
 conda install --channel conda-forge  lightgbm --yes
 
 # TF version and CUDA can have compitability issues!
-# conda install --channel anaconda  tensorflow-gpu=2.0 --yes # gpu
-conda install --channel anaconda  tensorflow-gpu=2.1 --yes # gpu
+conda install --channel anaconda  tensorflow-gpu=2.0 --yes # gpu
+# conda install --channel anaconda  tensorflow-gpu=2.1 --yes # gpu
 
 conda install --channel conda-forge  jupyterlab --yes
 conda install --channel rdkit  rdkit --yes
+conda install --channel anaconda  pyyaml
 
 # Create env
 # conda create --name env1 python=3.6

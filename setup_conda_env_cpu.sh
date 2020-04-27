@@ -12,6 +12,7 @@ conda install --channel conda-forge  keras --yes
 
 conda install --channel conda-forge  jupyterlab --yes
 conda install --channel rdkit  rdkit --yes
+conda install --channel anaconda  pyyaml
 
 # Create env
 # conda create --name env1 python=3.6
